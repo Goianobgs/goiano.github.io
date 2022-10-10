@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+/* ---------------- Cabeçalho do Currículo --------------- */
+
+#estrutura h1 {
+    float: left;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+#estrutura p {
+    text-decoration: none;
+    float: left;
+    margin-top: -5px;
+    margin-left: 35px;
+    }
+
+#foto {
+    width: 150px;
+    height: 180px;
+    float: right;
+    border-radius:1px;
+    border:1px solid black;
+    box-shadow:2px 3px 10px black;
+    margin-top:20px;
+    margin-right:20px;
+    filter:grayscale(100%);
+}
+
+/* --------------- Corpo do Currículo ------------*/
+
+#formato {
+    width:595px;
+    height:824px;
+    margin:auto;
+    position:relative;
+    font-family: Arial, sans-serif;
+}
+
+.linha {
+    width:100%;
+    height:1px;
+    color:rgb(187, 176, 176);
+    background:rgb(7, 1, 1);
+
+}
+
+.dados{
+    margin: 10;
+    font-size: 16px;
+    margin-left: -20px;
+}
+.dados1 {
+    margin: 01;
+    font-size: 16px;
+}
+.guia {
+    position:absolute;
+    margin-top:220px;
+    margin-left:30px;
+    width:505px;
+}
+
+.guia h2 {
+    margin: 0;
+    font-size: 25px;
+}
+
+.guia1 {
+    position:absolute;
+    margin-top:360px;
+    margin-left:30px;
+    width:505px;
+  }
+
+.guia1 h2 {
+    margin:0;
+    font-size:25px;
+}
+
+.guia2 {
+    position:absolute;
+    margin-top:480px;
+    margin-left:30px;
+    width:505px;
+}
+
+.guia2 h2 {
+    margin:0;
+    font-size:25px;
+}
+
+.guia3 {
+    position:absolute;
+    margin-top:650px;
+    margin-left:30px;
+    width:499px;
+    text-align: justify;
+    
+}
+
+.guia3 h2 {
+    margin: 0px;
+    font-size:25px;
+    margin-top: -15px;
+}
+
+
+/* ------------- FIM ----------------- */
